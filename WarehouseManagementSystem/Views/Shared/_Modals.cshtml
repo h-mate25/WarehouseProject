@@ -1,0 +1,519 @@
+@* Scan Modal *@
+<div class="modal" id="scanModal">
+    <div class="bg-white w-full max-w-md m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Scan New Item</h3>
+            <button data-close-modal="scanModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="space-y-4" id="scanSteps">
+            <div id="scanStep1" class="space-y-4">
+                <div class="relative border-2 border-dashed border-gray-300 rounded-lg overflow-hidden">
+                    <video id="qrScanner" class="w-full h-64 object-cover"></video>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-48 h-48 border-2 border-primary rounded-lg"></div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p id="scanStatus" class="text-gray-500">Waiting for camera access...</p>
+                </div>
+                <button id="startScanningBtn" class="w-full bg-primary text-white p-3 rounded-button">Start Scanning</button>
+            </div>
+            <div id="scanStep2" class="hidden space-y-4">
+                <div class="p-4 bg-blue-50 rounded-lg">
+                    <h4 class="font-medium text-blue-700 mb-2">Scanned Item Details</h4>
+                    <p id="scannedCode" class="text-sm text-blue-600 font-mono"></p>
+                </div>
+                <div class="space-y-3">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Quantity</label>
+                        <input type="number" id="itemQuantity" class="w-full p-3 border rounded-button" min="1">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Location</label>
+                        <select id="itemLocation" class="w-full p-3 border rounded-button">
+                            <option value="">Select Location</option>
+                            <option value="A1">Zone A - Shelf 1</option>
+                            <option value="A2">Zone A - Shelf 2</option>
+                            <option value="B1">Zone B - Shelf 1</option>
+                            <option value="B2">Zone B - Shelf 2</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Condition</label>
+                        <select id="itemCondition" class="w-full p-3 border rounded-button">
+                            <option value="">Select Condition</option>
+                            <option value="new">New</option>
+                            <option value="good">Good</option>
+                            <option value="damaged">Damaged</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Notes</label>
+                        <textarea id="itemNotes" class="w-full p-3 border rounded-button h-24" placeholder="Add any additional notes..."></textarea>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <button id="scanAgainBtn" class="flex-1 border border-gray-300 text-gray-600 p-3 rounded-button">Scan Again</button>
+                    <button id="submitScanBtn" onclick="try { submitScanForm(); } catch(e) { console.error(e); }" class="flex-1 bg-primary text-white p-3 rounded-button">Submit</button>
+                </div>
+            </div>
+            <div id="scanStep3" class="hidden space-y-4">
+                <div class="p-6 text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="ri-check-line text-3xl text-green-500"></i>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-2">Item Successfully Added</h4>
+                    <p class="text-gray-500">The item has been added to inventory</p>
+                </div>
+                <button id="scanDoneBtn" data-close-modal="scanModal" class="w-full bg-primary text-white p-3 rounded-button">Done</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Shipment Modal *@
+<div class="modal" id="shipmentModal">
+    <div class="bg-white w-full max-w-md m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Start New Shipment</h3>
+            <button data-close-modal="shipmentModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Shipment Type</label>
+                <select id="shipmentType" class="w-full p-3 border rounded-button">
+                    <option value="">Select Shipment Type</option>
+                    <option value="Inbound">Inbound</option>
+                    <option value="Outbound">Outbound</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Partner Name</label>
+                <input type="text" id="partnerName" placeholder="Enter supplier/customer name" class="w-full p-3 border rounded-button">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Items</label>
+                <textarea id="shipmentItems" placeholder="Enter items description" class="w-full p-3 border rounded-button h-24"></textarea>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Status</label>
+                <select id="shipmentStatus" class="w-full p-3 border rounded-button">
+                    <option value="Pending">Pending</option>
+                    <option value="In Transit">In Transit</option>
+                    <option value="Processing">Processing</option>
+                    <option value="Scheduled">Scheduled</option>
+                    <option value="Arrived">Arrived</option>
+                    <option value="Shipped">Shipped</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">ETA</label>
+                <input type="date" id="shipmentEta" class="w-full p-3 border rounded-button">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Priority</label>
+                <select id="shipmentPriority" class="w-full p-3 border rounded-button">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Notes</label>
+                <textarea id="shipmentNotes" placeholder="Add any additional notes..." class="w-full p-3 border rounded-button h-24"></textarea>
+            </div>
+            <button id="createShipmentBtn" class="w-full bg-primary text-white p-3 rounded-button">Create Shipment</button>
+        </div>
+    </div>
+</div>
+
+@* Issue Modal *@
+<div class="modal" id="issueModal">
+    <div class="bg-white w-full max-w-md m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Report Issue</h3>
+            <button data-close-modal="issueModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="space-y-4">
+            <select id="issueType" class="w-full p-3 border rounded-button">
+                <option value="">Select Issue Type</option>
+                <option value="Equipment">Equipment Malfunction</option>
+                <option value="Inventory">Inventory Discrepancy</option>
+                <option value="Safety">Safety Concern</option>
+                <option value="Other">Other</option>
+            </select>
+            <textarea id="issueDescription" placeholder="Describe the issue..." class="w-full p-3 border rounded-button h-32"></textarea>
+            <button id="submitIssueBtn" class="w-full bg-primary text-white p-3 rounded-button">Submit Report</button>
+        </div>
+    </div>
+</div>
+
+@* Support Modal *@
+<div class="modal" id="supportModal">
+    <div class="bg-white w-full max-w-md m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Request Support</h3>
+            <button data-close-modal="supportModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="space-y-4">
+            <select class="w-full p-3 border rounded-button">
+                <option>Select Support Type</option>
+                <option>Technical Support</option>
+                <option>Training Request</option>
+                <option>General Inquiry</option>
+            </select>
+            <textarea placeholder="How can we help you?" class="w-full p-3 border rounded-button h-32"></textarea>
+            <button data-close-modal="supportModal" class="w-full bg-primary text-white p-3 rounded-button">Submit Request</button>
+        </div>
+    </div>
+</div>
+
+@* Stocktake Modal *@
+<div class="modal" id="stocktakeModal">
+    <div class="bg-white w-full max-w-md m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Start Stocktake</h3>
+            <button data-close-modal="stocktakeModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Zone</label>
+                <select id="stocktakeZone" class="w-full p-3 border rounded-button">
+                    <option value="">Select Zone</option>
+                    <option value="A">Zone A</option>
+                    <option value="B">Zone B</option>
+                    <option value="C">Zone C</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Shelf</label>
+                <select id="stocktakeShelf" class="w-full p-3 border rounded-button">
+                    <option value="">Select Shelf</option>
+                    <option value="1">Shelf 1</option>
+                    <option value="2">Shelf 2</option>
+                    <option value="3">Shelf 3</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Counter</label>
+                <select id="stocktakeCounter" class="w-full p-3 border rounded-button">
+                    <option value="">Select Counter</option>
+                    <option value="emily">Emily Johnson</option>
+                    <option value="michael">Michael Smith</option>
+                    <option value="sarah">Sarah Williams</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Notes</label>
+                <textarea id="stocktakeNotes" class="w-full p-3 border rounded-button h-24" placeholder="Add any additional notes..."></textarea>
+            </div>
+            <button id="startStocktakeBtn" class="w-full bg-primary text-white p-3 rounded-button">Start Stocktake</button>
+        </div>
+    </div>
+</div>
+
+@* Edit Item Modal *@
+<div class="modal" id="editItemModal">
+    <div class="bg-white w-full max-w-md m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Edit Item</h3>
+            <button data-close-modal="editItemModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">SKU</label>
+                <input type="text" id="editSku" class="w-full p-3 border rounded-button" readonly>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <input type="text" id="editName" class="w-full p-3 border rounded-button">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Category</label>
+                <input type="text" id="editCategory" class="w-full p-3 border rounded-button">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Quantity</label>
+                <input type="number" id="editQuantity" class="w-full p-3 border rounded-button" min="0">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Location</label>
+                <select id="editLocation" class="w-full p-3 border rounded-button">
+                    <option value="">Select Location</option>
+                    <option value="Zone A - Shelf 1">Zone A - Shelf 1</option>
+                    <option value="Zone A - Shelf 2">Zone A - Shelf 2</option>
+                    <option value="Zone A - Shelf 3">Zone A - Shelf 3</option>
+                    <option value="Zone B - Shelf 1">Zone B - Shelf 1</option>
+                    <option value="Zone B - Shelf 2">Zone B - Shelf 2</option>
+                    <option value="Zone B - Shelf 3">Zone B - Shelf 3</option>
+                    <option value="Zone C - Shelf 1">Zone C - Shelf 1</option>
+                    <option value="Zone C - Shelf 2">Zone C - Shelf 2</option>
+                    <option value="Zone C - Shelf 3">Zone C - Shelf 3</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Condition</label>
+                <select id="editCondition" class="w-full p-3 border rounded-button">
+                    <option value="">Select Condition</option>
+                    <option value="New">New</option>
+                    <option value="Good">Good</option>
+                    <option value="Fair">Fair</option>
+                    <option value="Poor">Poor</option>
+                    <option value="Damaged">Damaged</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Notes</label>
+                <textarea id="editNotes" class="w-full p-3 border rounded-button h-24" placeholder="Add any additional notes..."></textarea>
+            </div>
+            <button id="updateItemBtn" class="w-full bg-primary text-white p-3 rounded-button">Update Item</button>
+        </div>
+    </div>
+</div>
+
+@* View Shipment Modal *@
+<div class="modal" id="viewShipmentModal">
+    <div class="bg-white w-full max-w-md m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Shipment Details</h3>
+            <button data-close-modal="viewShipmentModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Shipment ID</label>
+                <p id="viewShipmentId" class="text-gray-900"></p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Type</label>
+                <p id="viewShipmentType" class="text-gray-900"></p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Partner Name</label>
+                <p id="viewPartnerName" class="text-gray-900"></p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Items</label>
+                <p id="viewShipmentItems" class="text-gray-900"></p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Status</label>
+                <p id="viewShipmentStatus" class="text-gray-900"></p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">ETA</label>
+                <p id="viewShipmentEta" class="text-gray-900"></p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Priority</label>
+                <p id="viewShipmentPriority" class="text-gray-900"></p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Notes</label>
+                <p id="viewShipmentNotes" class="text-gray-900"></p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Created At</label>
+                <p id="viewShipmentCreatedAt" class="text-gray-900"></p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Completed At</label>
+                <p id="viewShipmentCompletedAt" class="text-gray-900"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Edit Shipment Modal *@
+<div class="modal" id="editShipmentModal">
+    <div class="bg-white w-full max-w-md m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Edit Shipment</h3>
+            <button data-close-modal="editShipmentModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="space-y-4">
+            <input type="hidden" id="editShipmentId">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Shipment Type</label>
+                <select id="editShipmentType" class="w-full p-3 border rounded-button">
+                    <option value="">Select Shipment Type</option>
+                    <option value="Inbound">Inbound</option>
+                    <option value="Outbound">Outbound</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Partner Name</label>
+                <input type="text" id="editPartnerName" class="w-full p-3 border rounded-button">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Items</label>
+                <textarea id="editShipmentItems" class="w-full p-3 border rounded-button h-24"></textarea>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Status</label>
+                <select id="editShipmentStatus" class="w-full p-3 border rounded-button">
+                    <option value="Pending">Pending</option>
+                    <option value="In Transit">In Transit</option>
+                    <option value="Processing">Processing</option>
+                    <option value="Scheduled">Scheduled</option>
+                    <option value="Arrived">Arrived</option>
+                    <option value="Shipped">Shipped</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">ETA</label>
+                <input type="date" id="editShipmentEta" class="w-full p-3 border rounded-button">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Priority</label>
+                <select id="editShipmentPriority" class="w-full p-3 border rounded-button">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Notes</label>
+                <textarea id="editShipmentNotes" class="w-full p-3 border rounded-button h-24"></textarea>
+            </div>
+            <button id="updateShipmentBtn" class="w-full bg-primary text-white p-3 rounded-button">Update Shipment</button>
+        </div>
+    </div>
+</div>
+
+@* Add Item Modal *@
+<div class="modal" id="addItemModal">
+    <div class="bg-white w-full max-w-md m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Add New Item</h3>
+            <button data-close-modal="addItemModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">SKU</label>
+                <input type="text" id="newItemSku" class="w-full p-3 border rounded-button" placeholder="Optional - leave blank for automatic generation">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <input type="text" id="newItemName" class="w-full p-3 border rounded-button" placeholder="Item name" required data-error-message="Item name is required">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Category</label>
+                <select id="newItemCategory" class="w-full p-3 border rounded-button" required data-error-message="Please select a category">
+                    <option value="">Select Category</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Office Supplies">Office Supplies</option>
+                    <option value="Accessories">Accessories</option>
+                    <option value="General">General</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Quantity</label>
+                <input type="number" id="newItemQuantity" class="w-full p-3 border rounded-button" min="1" value="1" required data-error-message="Quantity must be at least 1">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Location</label>
+                <select id="newItemLocation" class="w-full p-3 border rounded-button" required data-error-message="Please select a location">
+                    <option value="">Select Location</option>
+                    <option value="Zone A - Shelf 1">Zone A - Shelf 1</option>
+                    <option value="Zone A - Shelf 2">Zone A - Shelf 2</option>
+                    <option value="Zone A - Shelf 3">Zone A - Shelf 3</option>
+                    <option value="Zone B - Shelf 1">Zone B - Shelf 1</option>
+                    <option value="Zone B - Shelf 2">Zone B - Shelf 2</option>
+                    <option value="Zone B - Shelf 3">Zone B - Shelf 3</option>
+                    <option value="Zone C - Shelf 1">Zone C - Shelf 1</option>
+                    <option value="Zone C - Shelf 2">Zone C - Shelf 2</option>
+                    <option value="Zone C - Shelf 3">Zone C - Shelf 3</option>
+                    <option value="In Shipment">In Shipment</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Condition</label>
+                <select id="newItemCondition" class="w-full p-3 border rounded-button" required data-error-message="Please select a condition">
+                    <option value="">Select Condition</option>
+                    <option value="New">New</option>
+                    <option value="Good">Good</option>
+                    <option value="Fair">Fair</option>
+                    <option value="Poor">Poor</option>
+                    <option value="Damaged">Damaged</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Notes</label>
+                <textarea id="newItemNotes" class="w-full p-3 border rounded-button h-24" placeholder="Add any additional notes..."></textarea>
+            </div>
+            <button type="button" id="addItemBtn" class="w-full bg-green-500 hover:bg-green-600 text-white p-3 rounded-button">Add Item</button>
+        </div>
+    </div>
+</div>
+
+@* All Activities Modal *@
+<div class="modal" id="allActivitiesModal">
+    <div class="bg-white w-full max-w-4xl m-auto rounded-lg p-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">All System Activities</h3>
+            <button data-close-modal="allActivitiesModal" class="text-gray-400 hover:text-gray-600">
+                <i class="ri-close-line text-xl"></i>
+            </button>
+        </div>
+        <div class="flex justify-between items-center mb-4">
+            <div class="flex gap-2">
+                <select id="activityTypeFilter" class="p-2 border rounded-button text-sm">
+                    <option value="">All Types</option>
+                    <option value="Add">Add</option>
+                    <option value="Remove">Remove</option>
+                    <option value="Update">Update</option>
+                    <option value="Move">Move</option>
+                    <option value="Create">Create</option>
+                    <option value="Delete">Delete</option>
+                    <option value="Edit">Edit</option>
+                    <option value="Complete">Complete</option>
+                    <option value="Cancel">Cancel</option>
+                </select>
+                <input type="text" id="activitySearchInput" placeholder="Search activities..." class="p-2 border rounded-button text-sm">
+            </div>
+            <button id="activityRefreshBtn" class="text-gray-600 hover:text-gray-900">
+                <i class="ri-refresh-line mr-1"></i> Refresh
+            </button>
+        </div>
+        <div class="overflow-auto max-h-96">
+            <table class="min-w-full divide-y divide-gray-200">
+                <thead class="bg-gray-50 sticky top-0">
+                    <tr>
+                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
+                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Item</th>
+                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">User</th>
+                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Time</th>
+                    </tr>
+                </thead>
+                <tbody id="allActivitiesTableBody" class="bg-white divide-y divide-gray-200">
+                    <!-- Activities will be loaded here -->
+                    <tr class="animate-pulse">
+                        <td colspan="5" class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 text-center">
+                            Loading activities...
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div> 

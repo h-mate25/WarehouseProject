@@ -1,0 +1,768 @@
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\NuGet.config
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\appsettings.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.staticwebassets.runtime.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.staticwebassets.endpoints.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.exe
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.deps.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.runtimeconfig.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.pdb
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Humanizer.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Private.Windows.Core.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zxing.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.csproj.AssemblyReference.cache
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.AssemblyInfoInputs.cache
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.AssemblyInfo.cs
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.RazorAssemblyInfo.cache
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.RazorAssemblyInfo.cs
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\scopedcss\bundle\WarehouseManagementSystem.styles.css
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\9ajqz667j7-dhqv1mieel.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\e1df4jgf7v-knu4h9nx3g.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\eze8ld6tqk-5ipweew5fc.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\s8t3k9uh5a-zl6t0bar4h.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\gbbi920jge-9621hqpza3.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\75694n8de7-j828tavfp4.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ear3xv518b-nkbhjrxy2c.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\rwbrt57lg5-35qj2gc4j4.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\jjuxoxu9re-eighyqjtdm.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\z1iskvellq-n72ul0c73y.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\10vnag3omm-w4fccj4yr8.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ykxr7yjy9s-efvoyxnalc.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\mkxcripvzr-7miwl91vcc.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\k4lvfk2phx-bo8j89sye0.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\xaujvcs7qx-lde11g1anx.gz
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.build.WarehouseManagementSystem.props
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WarehouseManagementSystem.props
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WarehouseManagementSystem.props
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\Warehous.E850F5C5.Up2Date
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\refint\WarehouseManagementSystem.dll
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.pdb
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.genruntimeconfig.cache
+C:\Users\gergo\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\ref\WarehouseManagementSystem.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.csproj.AssemblyReference.cache
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.AssemblyInfoInputs.cache
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.AssemblyInfo.cs
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.RazorAssemblyInfo.cache
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.RazorAssemblyInfo.cs
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\NuGet.config
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\appsettings.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.staticwebassets.runtime.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.staticwebassets.endpoints.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.exe
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.deps.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.runtimeconfig.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.pdb
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Humanizer.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Private.Windows.Core.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zxing.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\scopedcss\bundle\WarehouseManagementSystem.styles.css
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\9ajqz667j7-dhqv1mieel.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\s8t3k9uh5a-zl6t0bar4h.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\gbbi920jge-9621hqpza3.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\75694n8de7-j828tavfp4.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ear3xv518b-nkbhjrxy2c.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\rwbrt57lg5-35qj2gc4j4.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\z1iskvellq-9f54n951wy.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\10vnag3omm-w4fccj4yr8.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ykxr7yjy9s-szk8hehd0c.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\mkxcripvzr-7miwl91vcc.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\k4lvfk2phx-bo8j89sye0.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\wyd2wnxe8a-ei37epbpks.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\xaujvcs7qx-lde11g1anx.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\tqu6dn51j0-gmnrn65wj0.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.build.WarehouseManagementSystem.props
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WarehouseManagementSystem.props
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WarehouseManagementSystem.props
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\Warehous.E850F5C5.Up2Date
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\refint\WarehouseManagementSystem.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.pdb
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.genruntimeconfig.cache
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\ref\WarehouseManagementSystem.dll
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\jjuxoxu9re-19fa0ktojk.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\e1df4jgf7v-j1tlgcbmzo.gz
+C:\Users\david\Documents\Rak\WarehouseManagementSystem\obj\Debug\net9.0\compressed\nldl87f1l0-653zay2j5h.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\NuGet.config
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\appsettings.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.staticwebassets.runtime.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.staticwebassets.endpoints.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.exe
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.deps.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.runtimeconfig.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.pdb
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Humanizer.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Private.Windows.Core.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zxing.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.csproj.AssemblyReference.cache
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.AssemblyInfoInputs.cache
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.AssemblyInfo.cs
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.RazorAssemblyInfo.cache
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.RazorAssemblyInfo.cs
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\scopedcss\bundle\WarehouseManagementSystem.styles.css
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\9ajqz667j7-dhqv1mieel.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\e1df4jgf7v-j1tlgcbmzo.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\s8t3k9uh5a-zl6t0bar4h.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\gbbi920jge-9621hqpza3.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\75694n8de7-j828tavfp4.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ear3xv518b-nkbhjrxy2c.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\nldl87f1l0-h9tlubpmn7.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\rwbrt57lg5-35qj2gc4j4.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\jjuxoxu9re-19fa0ktojk.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\z1iskvellq-9f54n951wy.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\10vnag3omm-w4fccj4yr8.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ykxr7yjy9s-szk8hehd0c.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\mkxcripvzr-7miwl91vcc.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\k4lvfk2phx-bo8j89sye0.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\wyd2wnxe8a-ei37epbpks.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\xaujvcs7qx-lde11g1anx.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\tqu6dn51j0-gmnrn65wj0.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\5w8ug25wlo-ia6r3uyyjl.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ezemn4n66h-1ns07k2sli.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\0kb8mud3ss-ou2zeq6qm7.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ovkmnkykvf-2w4c0xcfzb.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\18e7agp831-xjeu0ei158.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\4tnd0slsy1-lp1ea8x5eg.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\h53tqg7i5s-fxi7z4hm8p.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\343vntpvej-dgd46l04x3.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\compressed\xeeuoaq7ar-fbo4y84rjm.gz
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.build.WarehouseManagementSystem.props
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WarehouseManagementSystem.props
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WarehouseManagementSystem.props
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\Warehous.E850F5C5.Up2Date
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\refint\WarehouseManagementSystem.dll
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.pdb
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.genruntimeconfig.cache
+C:\Users\david\Documents\Werhouse Project\WarehouseManagementSystem\obj\Debug\net9.0\ref\WarehouseManagementSystem.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\NuGet.config
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\appsettings.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.staticwebassets.endpoints.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.staticwebassets.runtime.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.exe
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.deps.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.runtimeconfig.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\WarehouseManagementSystem.pdb
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Humanizer.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Private.Windows.Core.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zxing.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.csproj.AssemblyReference.cache
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.AssemblyInfoInputs.cache
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.AssemblyInfo.cs
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.RazorAssemblyInfo.cache
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.RazorAssemblyInfo.cs
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\scopedcss\bundle\WarehouseManagementSystem.styles.css
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\9ajqz667j7-dhqv1mieel.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\e1df4jgf7v-j1tlgcbmzo.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\gbbi920jge-9621hqpza3.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\75694n8de7-j828tavfp4.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\nldl87f1l0-h9tlubpmn7.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\rwbrt57lg5-35qj2gc4j4.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\jjuxoxu9re-19fa0ktojk.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\z1iskvellq-9f54n951wy.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\10vnag3omm-w4fccj4yr8.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ykxr7yjy9s-szk8hehd0c.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\mkxcripvzr-7miwl91vcc.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\k4lvfk2phx-bo8j89sye0.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\wyd2wnxe8a-ei37epbpks.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\xaujvcs7qx-lde11g1anx.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\tqu6dn51j0-gmnrn65wj0.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\5w8ug25wlo-ia6r3uyyjl.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ezemn4n66h-1ns07k2sli.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\0kb8mud3ss-ou2zeq6qm7.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ovkmnkykvf-2w4c0xcfzb.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\18e7agp831-xjeu0ei158.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\4tnd0slsy1-lp1ea8x5eg.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\h53tqg7i5s-fxi7z4hm8p.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\343vntpvej-dgd46l04x3.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\xeeuoaq7ar-fbo4y84rjm.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.build.WarehouseManagementSystem.props
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WarehouseManagementSystem.props
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WarehouseManagementSystem.props
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\Warehous.E850F5C5.Up2Date
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\refint\WarehouseManagementSystem.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.pdb
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\WarehouseManagementSystem.genruntimeconfig.cache
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\ref\WarehouseManagementSystem.dll
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\s8t3k9uh5a-5unhzwnmfx.gz
+C:\Users\david\Documents\WarehouseProject\WarehouseManagementSystem\obj\Debug\net9.0\compressed\ear3xv518b-osvkfg4dxh.gz

@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Welcome";
+    ViewData["Breadcrumb"] = "Home";
+    Layout = "_Layout";
+}
+
+<div class="flex flex-col items-center justify-center min-h-[60vh] p-6">
+    <div class="max-w-2xl w-full bg-white rounded-lg shadow-lg p-8 text-center">
+        <h1 class="text-3xl font-bold text-primary mb-4">Welcome to Warehouse Management System</h1>
+        
+        <p class="text-gray-600 mb-8">
+            Warehouse Management System provides a comprehensive solution for managing inventory, 
+            shipments, and warehouse operations. Use the navigation menu to access different 
+            sections of the application.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <a asp-controller="Home" asp-action="Tasks" class="bg-blue-50 p-6 rounded-lg hover:bg-blue-100 transition">
+                <div class="w-16 h-16 bg-blue-100 rounded-full mx-auto flex items-center justify-center mb-4">
+                    <i class="ri-task-line text-2xl text-blue-500"></i>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Tasks</h3>
+                <p class="text-sm text-gray-600">View and manage your daily tasks</p>
+            </a>
+            
+            <a asp-controller="Home" asp-action="Inventory" class="bg-green-50 p-6 rounded-lg hover:bg-green-100 transition">
+                <div class="w-16 h-16 bg-green-100 rounded-full mx-auto flex items-center justify-center mb-4">
+                    <i class="ri-box-3-line text-2xl text-green-500"></i>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Inventory</h3>
+                <p class="text-sm text-gray-600">Manage warehouse inventory</p>
+            </a>
+            
+            <a asp-controller="Home" asp-action="Shipments" class="bg-purple-50 p-6 rounded-lg hover:bg-purple-100 transition">
+                <div class="w-16 h-16 bg-purple-100 rounded-full mx-auto flex items-center justify-center mb-4">
+                    <i class="ri-truck-line text-2xl text-purple-500"></i>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Shipments</h3>
+                <p class="text-sm text-gray-600">Track inbound and outbound shipments</p>
+            </a>
+        </div>
+        
+        <a asp-controller="Home" asp-action="Tasks" class="inline-block bg-primary text-white py-3 px-6 rounded-full hover:bg-blue-600 transition">
+            Get Started
+        </a>
+    </div>
+</div> 

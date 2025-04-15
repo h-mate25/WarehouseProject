@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\WarehouseLogo.png",
+      "PackagePath": "staticwebassets\\WarehouseLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\css\\modal.css",
+      "PackagePath": "staticwebassets\\css\\modal.css"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\api.js",
+      "PackagePath": "staticwebassets\\js\\api.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\backup\\api.js",
+      "PackagePath": "staticwebassets\\js\\backup\\api.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\backup\\inventory.js",
+      "PackagePath": "staticwebassets\\js\\backup\\inventory.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\config.js",
+      "PackagePath": "staticwebassets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\home-shipments.js",
+      "PackagePath": "staticwebassets\\js\\home-shipments.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\interfaces.js",
+      "PackagePath": "staticwebassets\\js\\interfaces.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\inventory.js",
+      "PackagePath": "staticwebassets\\js\\inventory.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\modalService.js",
+      "PackagePath": "staticwebassets\\js\\modalService.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\models\\ActivityLog.js",
+      "PackagePath": "staticwebassets\\js\\models\\ActivityLog.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\notificationService.js",
+      "PackagePath": "staticwebassets\\js\\notificationService.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\services.js",
+      "PackagePath": "staticwebassets\\js\\services.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\services\\apiService.js",
+      "PackagePath": "staticwebassets\\js\\services\\apiService.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\shipments.js",
+      "PackagePath": "staticwebassets\\js\\shipments.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tasks.js",
+      "PackagePath": "staticwebassets\\js\\tasks.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\.babelrc",
+      "PackagePath": "staticwebassets\\js\\tests\\.babelrc"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\activity-log.test.js",
+      "PackagePath": "staticwebassets\\js\\tests\\activity-log.test.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\example.test.js",
+      "PackagePath": "staticwebassets\\js\\tests\\example.test.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\home-shipments.add-update.test.js",
+      "PackagePath": "staticwebassets\\js\\tests\\home-shipments.add-update.test.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\home-shipments.test.js",
+      "PackagePath": "staticwebassets\\js\\tests\\home-shipments.test.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\inventory.test.js",
+      "PackagePath": "staticwebassets\\js\\tests\\inventory.test.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\jest.config.js",
+      "PackagePath": "staticwebassets\\js\\tests\\jest.config.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\package.json",
+      "PackagePath": "staticwebassets\\js\\tests\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\setup-activity-log.js",
+      "PackagePath": "staticwebassets\\js\\tests\\setup-activity-log.js"
+    },
+    {
+      "Id": "C:\\Users\\david\\Documents\\WarehouseProject\\WarehouseManagementSystem\\wwwroot\\js\\tests\\setup-jest.js",
+      "PackagePath": "staticwebassets\\js\\tests\\setup-jest.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WarehouseManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.WarehouseManagementSystem.props",
+      "PackagePath": "build\\WarehouseManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.WarehouseManagementSystem.props",
+      "PackagePath": "buildMultiTargeting\\WarehouseManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.WarehouseManagementSystem.props",
+      "PackagePath": "buildTransitive\\WarehouseManagementSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

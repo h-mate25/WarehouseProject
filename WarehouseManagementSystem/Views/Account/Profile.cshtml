@@ -1,0 +1,90 @@
+@model Worker
+@{
+    ViewData["Title"] = "Profile";
+    ViewData["Breadcrumb"] = "Profile";
+}
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="md:col-span-1">
+        <div class="bg-white p-6 rounded shadow-sm">
+            <div class="flex flex-col items-center text-center mb-6">
+                <div class="w-24 h-24 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mb-4">
+                    @Model.FullName.Substring(0, 1).ToUpper()
+                </div>
+                <h3 class="text-xl font-semibold">@Model.FullName</h3>
+                <p class="text-gray-500">@Model.Role</p>
+                <p class="text-gray-500">@Model.Department</p>
+            </div>
+            
+            <div class="border-t pt-4">
+                <div class="flex items-center mb-3">
+                    <i class="ri-user-line w-6 text-gray-500"></i>
+                    <span class="ml-2">@Model.Username</span>
+                </div>
+                <div class="flex items-center mb-3">
+                    <i class="ri-mail-line w-6 text-gray-500"></i>
+                    <span class="ml-2">@Model.Email</span>
+                </div>
+                @if (!string.IsNullOrEmpty(Model.PhoneNumber))
+                {
+                    <div class="flex items-center mb-3">
+                        <i class="ri-phone-line w-6 text-gray-500"></i>
+                        <span class="ml-2">@Model.PhoneNumber</span>
+                    </div>
+                }
+                <div class="flex items-center">
+                    <i class="ri-calendar-line w-6 text-gray-500"></i>
+                    <span class="ml-2">Joined @Model.CreatedAt.ToString("MMMM dd, yyyy")</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="md:col-span-2">
+        <div class="bg-white p-6 rounded shadow-sm mb-6">
+            <h3 class="text-lg font-semibold mb-4">Account Information</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Username</label>
+                    <p class="border rounded-md px-3 py-2 bg-gray-50">@Model.Username</p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                    <p class="border rounded-md px-3 py-2 bg-gray-50">@Model.Email</p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                    <p class="border rounded-md px-3 py-2 bg-gray-50">@Model.FullName</p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Role</label>
+                    <p class="border rounded-md px-3 py-2 bg-gray-50">@Model.Role</p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Department</label>
+                    <p class="border rounded-md px-3 py-2 bg-gray-50">@(string.IsNullOrEmpty(Model.Department) ? "Not assigned" : Model.Department)</p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Last Login</label>
+                    <p class="border rounded-md px-3 py-2 bg-gray-50">@(Model.LastLogin.HasValue ? Model.LastLogin.Value.ToString("MMMM dd, yyyy HH:mm") : "Never")</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white p-6 rounded shadow-sm">
+            <h3 class="text-lg font-semibold mb-4">Recent Activity</h3>
+            <div class="space-y-4">
+                <div class="flex items-start gap-4">
+                    <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-blue-600">
+                        <i class="ri-logout-box-line"></i>
+                    </div>
+                    <div>
+                        <p class="font-medium">Logged in</p>
+                        <p class="text-sm text-gray-500 mt-1">@(Model.LastLogin.HasValue ? Model.LastLogin.Value.ToString("MMMM dd, yyyy HH:mm") : "Never")</p>
+                    </div>
+                </div>
+                <!-- More activity items would go here -->
+            </div>
+        </div>
+    </div>
+</div> 

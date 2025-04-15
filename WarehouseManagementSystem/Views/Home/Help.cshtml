@@ -1,0 +1,67 @@
+@{
+    ViewData["Title"] = "Help & Support";
+    ViewData["Breadcrumb"] = "Home / Help & Support";
+}
+
+<div class="flex items-center justify-center min-h-[70vh]">
+    <div class="bg-white p-10 rounded-lg shadow-lg max-w-3xl w-full text-center">
+        <div class="mb-8">
+            <div class="w-24 h-24 bg-purple-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i class="ri-question-line text-purple-500 text-4xl"></i>
+            </div>
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Help Center</h2>
+            <div class="h-1 w-20 bg-purple-500 mx-auto mb-6"></div>
+            <p class="text-gray-600 mb-6">Our comprehensive help and documentation resources are currently under development.</p>
+            
+            <div class="flex justify-center space-x-3 mb-8">
+                <div class="w-3 h-3 bg-purple-300 rounded-full animate-pulse" style="animation-delay: 0ms"></div>
+                <div class="w-3 h-3 bg-purple-500 rounded-full animate-pulse" style="animation-delay: 300ms"></div>
+                <div class="w-3 h-3 bg-purple-700 rounded-full animate-pulse" style="animation-delay: 600ms"></div>
+            </div>
+            
+            <div class="bg-purple-50 p-6 rounded-lg">
+                <div class="flex items-center text-left mb-4">
+                    <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                        <i class="ri-file-list-line text-green-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-800">Documentation</h3>
+                        <p class="text-sm text-gray-600">Comprehensive guides and tutorials</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center text-left mb-4">
+                    <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                        <i class="ri-customer-service-line text-blue-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-800">Support Resources</h3>
+                        <p class="text-sm text-gray-600">Dedicated support team and knowledge base</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center text-left">
+                    <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-4">
+                        <i class="ri-video-line text-orange-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-800">Training Videos</h3>
+                        <p class="text-sm text-gray-600">Visual guides for common workflows</p>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#" onclick="window.history.back(); return false;" class="inline-block mt-8 px-6 py-3 bg-purple-500 text-white rounded-button hover:bg-purple-600 transition-colors">
+                <i class="ri-arrow-left-line mr-2"></i> Go Back
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Help center page loaded');
+        });
+    </script>
+} 

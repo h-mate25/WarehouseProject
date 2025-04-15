@@ -1,0 +1,81 @@
+@model WarehouseManagementSystem.Models.Shipment
+
+@{
+    ViewData["Title"] = "Edit Shipment";
+    ViewData["Breadcrumb"] = "Home / Shipments / Edit";
+}
+
+<div class="bg-white rounded shadow-sm p-6 mb-6">
+    <h2 class="text-2xl font-bold mb-6">Edit Shipment: @Model.Id</h2>
+
+    <form id="editShipmentForm" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="CreatedAt" />
+        <input type="hidden" asp-for="CreatedBy" />
+        
+        @await Html.PartialAsync("_ShipmentForm", Model)
+        
+        <div class="flex justify-between">
+            <a href="@Url.Action("Index", "Shipments")" class="px-6 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">
+                Cancel
+            </a>
+            <button type="submit" class="px-6 py-2 bg-primary text-white rounded hover:bg-primary-dark">
+                Save Changes
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/js/shipments.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Edit Shipment page loaded');
+            
+            // Load available items for the dropdown
+            if (typeof shipmentsManager !== 'undefined' && 
+                typeof shipmentsManager.loadAvailableItems === 'function') {
+                shipmentsManager.loadAvailableItems();
+            }
+            
+            // Setup add/remove item functionality
+            const addItemBtn = document.getElementById('addItemBtn');
+            if (addItemBtn) {
+                addItemBtn.addEventListener('click', function() {
+                    if (typeof shipmentsManager !== 'undefined' && 
+                        typeof shipmentsManager.addItemRow === 'function') {
+                        shipmentsManager.addItemRow();
+                    }
+                });
+            }
+            
+            // Setup remove button functionality
+            document.querySelectorAll('.remove-item').forEach(button => {
+                button.addEventListener('click', function() {
+                    if (document.querySelectorAll('.item-row').length > 1) {
+                        this.closest('.item-row').remove();
+                        shipmentsManager.updateItemIndexes();
+                    }
+                });
+            });
+            
+            // Handle form submission
+            const form = document.getElementById('editShipmentForm');
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    if (typeof shipmentsManager !== 'undefined' && 
+                        typeof shipmentsManager.submitEditForm === 'function') {
+                        shipmentsManager.submitEditForm(this);
+                    }
+                });
+            }
+            
+            // Mark selected items in dropdowns
+            if (typeof shipmentsManager !== 'undefined' && 
+                typeof shipmentsManager.markSelectedItems === 'function') {
+                shipmentsManager.markSelectedItems();
+            }
+        });
+    </script>
+} 

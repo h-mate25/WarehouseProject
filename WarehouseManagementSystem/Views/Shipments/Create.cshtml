@@ -1,0 +1,179 @@
+@model WarehouseManagementSystem.Models.Shipment
+
+@{
+    ViewData["Title"] = "Create Shipment";
+    ViewData["Breadcrumb"] = "Home / Shipments / Create";
+    
+    var shipmentType = Context.Request.Query["type"].ToString();
+    if (string.IsNullOrEmpty(shipmentType)) 
+    {
+        shipmentType = "Inbound";
+    }
+}
+
+<div class="bg-white rounded shadow-sm p-6 mb-6">
+    <h2 class="text-2xl font-bold mb-6">Create New @shipmentType Shipment</h2>
+
+    <form id="createShipmentForm" method="post">
+        <input type="hidden" asp-for="Type" value="@shipmentType" />
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div>
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="Id">Shipment ID</label>
+                <input asp-for="Id" type="text" id="shipmentId" 
+                       class="border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
+                       placeholder="e.g., SHP123456" required>
+                <span asp-validation-for="Id" class="text-red-500 text-xs"></span>
+                <p class="text-gray-500 text-xs mt-1">Unique identifier for this shipment</p>
+            </div>
+            
+            <div>
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="PartnerName">Partner Name</label>
+                <input asp-for="PartnerName" type="text" id="partnerName" 
+                       class="border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
+                       placeholder="e.g., Supplier Company Ltd." required>
+                <span asp-validation-for="PartnerName" class="text-red-500 text-xs"></span>
+            </div>
+            
+            <div>
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="Status">Status</label>
+                <select asp-for="Status" id="status" 
+                        class="border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary" required>
+                    <option value="Pending">Pending</option>
+                    <option value="Processing">Processing</option>
+                    <option value="In Transit">In Transit</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Delayed">Delayed</option>
+                </select>
+                <span asp-validation-for="Status" class="text-red-500 text-xs"></span>
+            </div>
+            
+            <div>
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="Priority">Priority</label>
+                <select asp-for="Priority" id="priority" 
+                        class="border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary" required>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                    <option value="Urgent">Urgent</option>
+                </select>
+                <span asp-validation-for="Priority" class="text-red-500 text-xs"></span>
+            </div>
+            
+            <div>
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="ETA">Estimated Arrival Date</label>
+                <input asp-for="ETA" type="datetime-local" id="eta" 
+                       class="border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary" required>
+                <span asp-validation-for="ETA" class="text-red-500 text-xs"></span>
+            </div>
+            
+            <div>
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="Notes">Notes</label>
+                <textarea asp-for="Notes" id="notes" rows="3"
+                          class="border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
+                          placeholder="Any additional information about the shipment"></textarea>
+                <span asp-validation-for="Notes" class="text-red-500 text-xs"></span>
+            </div>
+        </div>
+        
+        <div class="mb-6">
+            <h3 class="text-lg font-bold mb-4">Shipment Items</h3>
+            
+            <div id="itemsContainer" class="space-y-4 mb-4">
+                <!-- Item rows will be added here dynamically -->
+                <div class="item-row flex flex-wrap md:flex-nowrap items-end gap-4">
+                    <div class="w-full md:w-1/2">
+                        <label class="block text-gray-700 text-sm font-bold mb-2">Item SKU</label>
+                        <select name="Items[0].SKU" class="item-sku border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary">
+                            <option value="">Select an item...</option>
+                            <!-- Items will be loaded dynamically -->
+                        </select>
+                    </div>
+                    <div class="w-full md:w-1/4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2">Quantity</label>
+                        <input type="number" name="Items[0].Quantity" class="item-quantity border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary" min="1" value="1">
+                    </div>
+                    <div class="w-full md:w-1/4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2">Notes</label>
+                        <input type="text" name="Items[0].Notes" class="item-notes border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+                    <div class="pt-2">
+                        <button type="button" class="remove-item px-2 py-2 bg-red-100 text-red-600 rounded hover:bg-red-200">
+                            <i class="ri-delete-bin-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <button type="button" id="addItemBtn" class="flex items-center px-4 py-2 bg-green-100 text-green-600 rounded hover:bg-green-200">
+                <i class="ri-add-line mr-2"></i> Add Item
+            </button>
+        </div>
+        
+        <div class="flex justify-between">
+            <a href="@Url.Action("Index", "Shipments")" class="px-6 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">
+                Cancel
+            </a>
+            <button type="submit" class="px-6 py-2 bg-primary text-white rounded hover:bg-primary-dark">
+                Create Shipment
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/js/shipments.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Create Shipment page loaded');
+            
+            // Load available items for the dropdown
+            if (typeof shipmentsManager !== 'undefined' && 
+                typeof shipmentsManager.loadAvailableItems === 'function') {
+                shipmentsManager.loadAvailableItems();
+            }
+            
+            // Setup add/remove item functionality
+            const addItemBtn = document.getElementById('addItemBtn');
+            if (addItemBtn) {
+                addItemBtn.addEventListener('click', function() {
+                    if (typeof shipmentsManager !== 'undefined' && 
+                        typeof shipmentsManager.addItemRow === 'function') {
+                        shipmentsManager.addItemRow();
+                    }
+                });
+            }
+            
+            // Initial setup for the first row's remove button
+            document.querySelectorAll('.remove-item').forEach(button => {
+                button.addEventListener('click', function() {
+                    if (document.querySelectorAll('.item-row').length > 1) {
+                        this.closest('.item-row').remove();
+                        shipmentsManager.updateItemIndexes();
+                    }
+                });
+            });
+            
+            // Handle form submission
+            const form = document.getElementById('createShipmentForm');
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    if (typeof shipmentsManager !== 'undefined' && 
+                        typeof shipmentsManager.submitShipmentForm === 'function') {
+                        shipmentsManager.submitShipmentForm(this);
+                    }
+                });
+            }
+            
+            // Generate a unique shipment ID if the field is empty
+            const shipmentIdField = document.getElementById('shipmentId');
+            if (shipmentIdField && !shipmentIdField.value) {
+                const type = '@shipmentType'.substring(0, 3).toUpperCase();
+                const timestamp = new Date().toISOString().replace(/[-:.TZ]/g, '').substring(0, 14);
+                const random = Math.floor(Math.random() * 1000).toString().padStart(3, '0');
+                shipmentIdField.value = `${type}${timestamp}${random}`;
+            }
+        });
+    </script>
+} 

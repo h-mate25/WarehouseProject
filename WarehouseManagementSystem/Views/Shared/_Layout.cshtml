@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>@ViewData["Title"] - Warehouse Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+    <link href="~/css/modal.css" rel="stylesheet" />
+    <script src="~/js/site.js?v=@DateTime.Now.Ticks"></script>
+    <script src="~/js/interfaces.js?v=@DateTime.Now.Ticks"></script>
+    <script src="~/js/api.js?v=@DateTime.Now.Ticks"></script>
+    <script src="~/js/services.js?v=@DateTime.Now.Ticks"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3498DB',
+                        secondary: '#F5F6FA'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        .chart-container {
+            width: 100%;
+            height: 300px;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 100;
+        }
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/modal.css" rel="stylesheet" />
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instascan@1.0.0/instascan.min.js"></script>
+</head>
+<body class="bg-secondary min-h-screen">
+    <div class="flex flex-col lg:flex-row">
+        <aside class="w-full lg:w-[280px] fixed bottom-0 lg:bottom-auto lg:h-screen bg-white shadow-lg flex lg:flex-col z-50">
+            <div class="p-3 border-b flex justify-between items-center">
+                <img src="~/WarehouseLogo.png" alt="Warehouse Logo" class="h-12" />
+                <button id="menuToggle" class="lg:hidden w-10 h-10 flex items-center justify-center">
+                    <i class="ri-menu-line text-xl"></i>
+                </button>
+            </div>
+            <nav class="flex-1 p-4 hidden lg:block" id="mobileNav">
+                <a asp-controller="Home" asp-action="Inventory" id="inventoryBtn" class="w-full flex items-center p-4 mb-2 text-left hover:bg-secondary rounded-button text-gray-600">
+                    <i class="ri-stack-line w-6 h-6 flex items-center justify-center mr-3"></i>
+                    <span>Inventory</span>
+                </a>
+                <a asp-controller="Home" asp-action="Shipments" id="shipmentsBtn" class="w-full flex items-center p-4 mb-2 text-left hover:bg-secondary rounded-button text-gray-600">
+                    <i class="ri-truck-line w-6 h-6 flex items-center justify-center mr-3"></i>
+                    <span>Shipments</span>
+                </a>
+                <a asp-controller="Home" asp-action="Tasks" class="w-full flex items-center p-4 mb-2 text-left hover:bg-secondary rounded-button text-gray-600">
+                    <i class="ri-task-line w-6 h-6 flex items-center justify-center mr-3"></i>
+                    <span>My Tasks</span>
+                </a>
+                <a asp-controller="Home" asp-action="Profile" class="w-full flex items-center p-4 mb-2 text-left hover:bg-secondary rounded-button text-gray-600">
+                    <i class="ri-user-line w-6 h-6 flex items-center justify-center mr-3"></i>
+                    <span>Profile</span>
+                </a>
+                <a asp-controller="Home" asp-action="Help" class="w-full flex items-center p-4 mb-2 text-left hover:bg-secondary rounded-button text-gray-600">
+                    <i class="ri-question-line w-6 h-6 flex items-center justify-center mr-3"></i>
+                    <span>Help</span>
+                </a>
+                <form asp-controller="Account" asp-action="Logout" method="post" class="mt-4 lg:hidden">
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="w-full flex items-center p-4 mb-2 text-left hover:bg-red-50 text-red-600 rounded-button">
+                        <i class="ri-logout-box-line w-6 h-6 flex items-center justify-center mr-3"></i>
+                        <span>Logout</span>
+                    </button>
+                </form>
+            </nav>
+            <div class="p-4 border-t hidden lg:block">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="mb-4 px-4 py-3 bg-gray-50 rounded-lg">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold">
+                                @User.Identity.Name.Substring(0, 1).ToUpper()
+                            </div>
+                            <div>
+                                <div class="font-medium">@User.FindFirst(System.Security.Claims.ClaimTypes.GivenName)?.Value</div>
+                                <div class="text-xs text-gray-500">@User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value</div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <form asp-controller="Account" asp-action="Logout" method="post" id="logoutForm">
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="w-full flex items-center p-4 text-left hover:bg-red-50 text-red-600 rounded-button">
+                        <i class="ri-logout-box-line w-6 h-6 flex items-center justify-center mr-3"></i>
+                        <span>Logout</span>
+                    </button>
+                </form>
+            </div>
+        </aside>
+        <main class="lg:ml-[280px] flex-1 p-4 lg:p-8 mb-16 lg:mb-0">
+            <header class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-primary">@ViewData["Title"]</h2>
+                    <div class="text-sm text-gray-500 mt-1">@ViewData["Breadcrumb"]</div>
+                </div>
+                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full lg:w-auto">
+                    <a asp-controller="Account" asp-action="Profile" class="flex items-center gap-3 bg-white rounded-full py-2 px-4 shadow-sm cursor-pointer hover:bg-gray-50">
+                        <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <span>@User.Identity.Name.Substring(0, 1).ToUpper()</span>
+                            }
+                            else
+                            {
+                                <i class="ri-user-line"></i>
+                            }
+                        </div>
+                        <span>@(User.Identity.IsAuthenticated ? User.FindFirst(System.Security.Claims.ClaimTypes.GivenName)?.Value : "Guest")</span>
+                    </a>
+                </div>
+            </header>
+            @RenderBody()
+        </main>
+    </div>
+
+    @await Html.PartialAsync("_Modals")
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileNav = document.getElementById('mobileNav');
+        menuToggle.addEventListener('click', function() {
+            if(mobileNav.classList.contains('hidden')) {
+                mobileNav.classList.remove('hidden');
+                mobileNav.classList.add('block');
+                menuToggle.innerHTML = '<i class="ri-close-line text-xl"></i>';
+            } else {
+                mobileNav.classList.add('hidden');
+                mobileNav.classList.remove('block');
+                menuToggle.innerHTML = '<i class="ri-menu-line text-xl"></i>';
+            }
+        });
+
+        // Active menu item highlighting
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPath = window.location.pathname;
+            document.querySelectorAll('nav a').forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('bg-secondary', 'text-primary');
+                    link.classList.remove('text-gray-600');
+                }
+            });
+        });
+        
+        // Keyboard shortcut for logout (Alt+Q)
+        document.addEventListener('keydown', function(e) {
+            if (e.altKey && e.key === 'q') {
+                e.preventDefault();
+                document.getElementById('logoutForm').submit();
+            }
+        });
+    </script>
+
+    <!-- Add any scripts here -->
+    <script src="~/js/notificationService.js"></script>
+    <script src="~/js/modalService.js"></script>
+    <script src="~/js/site.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html> 
